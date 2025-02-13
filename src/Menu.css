@@ -1,0 +1,9 @@
+#menu{
+    background-color: #54bb4a;
+    text-align: center;
+}
+
+#menu div button{
+    font-weight: bold;
+    color:black
+}

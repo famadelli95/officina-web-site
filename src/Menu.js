@@ -11,16 +11,22 @@ export default function ColorToggleButton() {
     };
   
     return (
-      <ToggleButtonGroup
-        color="primary"
-        value={alignment}
-        exclusive
-        onChange={handleChange}
-        aria-label="Platform"
-      >
-        <ToggleButton value="web">Web</ToggleButton>
-        <ToggleButton value="android">Android</ToggleButton>
-        <ToggleButton value="ios">iOS</ToggleButton>
-      </ToggleButtonGroup>
+        <div id="menu">
+            <ToggleButtonGroup
+                color="primary"
+                value={alignment}
+                exclusive
+                onChange={handleChange}
+                aria-label="Platform"
+            >
+                <ToggleButton value="home">HOME</ToggleButton>
+                <ToggleButton value="chisiamo">CHI SIAMO</ToggleButton>
+                <ToggleButton value="applicazinoi">APPLICAZIONI</ToggleButton>
+                <ToggleButton value="produzione">PRODUZIONE</ToggleButton>
+                <ToggleButton value="assemblaggio">ASSEMBLAGGIO</ToggleButton>
+                <ToggleButton value="collaudo">COLLAUDO</ToggleButton>
+                <ToggleButton value="contatti">CONTATTI</ToggleButton>
+            </ToggleButtonGroup>
+        </div>
     );
   }
