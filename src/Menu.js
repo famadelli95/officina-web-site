@@ -3,6 +3,7 @@ import './Menu.css';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Home from './pages/Home'
+import ChiSiamo from './pages/ChiSiamo'
 
 export default function ColorToggleButton() {
     const [alignment, setAlignment] = React.useState('web');
@@ -30,7 +31,7 @@ export default function ColorToggleButton() {
                     <ToggleButton value="contatti">CONTATTI</ToggleButton>
                 </ToggleButtonGroup>
             </div>
-            <Home/>
+            <ChiSiamo/>
         </div>
     );
   }
