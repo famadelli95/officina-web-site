@@ -4,6 +4,28 @@
 }
 
 #menu div button{
-    font-weight: bold;
-    color:black
+    /*font-weight: bold;*/
+    color:black;
+    font-size:large;
+}
+
+/* Change background color and text color of selected ToggleButton */
+.MuiToggleButton-root.Mui-selected {
+    background-color: black !important;  /* Change background color */
+    color: #54bb4a !important;           /* Change text color */
+}
+
+/* Change background color on hover when selected */
+.MuiToggleButton-root.Mui-selected:hover {
+    /*background-color: darkred !important;*/
+}
+
+/* Style for unselected ToggleButton on hover */
+.MuiToggleButton-root:hover {
+    background-color: rgb(52, 161, 85) !important;  /* Change background color */
+}
+
+/* Ensure selected buttons have a different hover effect */
+.MuiToggleButton-root.Mui-selected:hover {
+    background-color: rgb(35, 44, 40) !important;
 }
