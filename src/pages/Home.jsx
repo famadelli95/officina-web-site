@@ -16,9 +16,8 @@ const images = [
 ];
 
 const cards = [
-    { id: 1, title: "MECSPE 2015", img: macspe, desc: "MECSPE è la fiera di riferimento per l’industria manifatturiera. Saremo presenti dal 26 al 28 Marzo al padiglione 5 - stand F47." },
-    { id: 2, title: "PRODUZIONE", img: dsc, desc: "Il nostro staff e il nostro parco macchine all’avanguardia permettono di gestire efficacemente le richieste dei clienti con massima competenza e duttilità esecutiva." },
-    { id: 3, title: "COLLAUDO", img: ufficio, desc: "Effettuiamo scrupolosamente controlli durante l’intero ciclo di lavorazione dei componenti e siamo in grado di rilasciare una certificazione dimensionale completa." },
+    { id: 1, title: "PRODUZIONE", img: dsc, desc: "Il nostro staff e il nostro parco macchine all’avanguardia permettono di gestire efficacemente le richieste dei clienti con massima competenza e duttilità esecutiva." },
+    { id: 2, title: "COLLAUDO", img: ufficio, desc: "Effettuiamo scrupolosamente controlli durante l’intero ciclo di lavorazione dei componenti e siamo in grado di rilasciare una certificazione dimensionale completa." },
   ];
 
 export default function AdvancedCarousel() {
